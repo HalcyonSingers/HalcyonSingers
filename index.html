@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Halcyon Singers</title>
+</head>
+<body>
+ <header>
+    <img src="Images/logo.png" class="logo">
+    <div class="title">
+        <h1>Halcyon Singers</h1>
+    </div>
+
+    <!-- Hamburger Icon-->
+    <div class="hamburger" onclick="toggleMenu()">
+        &#9776; <!-- Hamburger text icon -->
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Recordings.html">Recordings</a></li>
+            <li><a href="Director.html">Music Director</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- JS for menu toggle -->
+<script>
+    function toggleMenu() {
+        var navMenu = document.getElementById("nav-menu");
+        navMenu.classList.toggle("active");
+    }
+</script>
+
+
+
+	
+	<div class="Images">
+        <img src="Images/Image2.jpg">
+	</div>
+    <p class="description">Halcyon Singers is a chamber choir with around 14 singers. We sing a wide range of music: madrigals, part-songs and sacred music ranging from the renaissance to the 21st century.<br><br>
+        ‘Halcyon’ comes from the name of a mythical bird, said by ancient writers to breed in a nest floating at sea at the winter solstice, charming the wind and waves into calm. It is this sense of calm and well-being that underpins everything Halcyon Singers does. In addition to generating a sense of well-being for the choir’s members, we go into hospitals and care-homes to perform for patients and residents. We also bring evensongs to local churches which don’t routinely have evensong.<br><br>
+        Halcyon Singers rehearses every Monday evening during term time at St Martin's Church in Salisbury. If you would like to join us, please get in touch. We don’t require you to undergo an audition – just come along to a few trial sessions and enjoy making music in a positive and relaxed environment. </p>
+    <div class="Images">
+		<img src="Images/Image1.png">
+	</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Halcyon Singers</title>
+</head>
+<body>
+	 <header>
+    <img src="Images/logo.png" class="logo">
+    <div class="title">
+        <h1>Halcyon Singers</h1>
+    </div>
+
+    <!-- Hamburger Icon-->
+    <div class="hamburger" onclick="toggleMenu()">
+        &#9776; <!-- Hamburger text icon -->
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Recordings.html">Recordings</a></li>
+            <li><a href="Director.html">Music Director</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- JS for menu toggle -->
+<script>
+    function toggleMenu() {
+        var navMenu = document.getElementById("nav-menu");
+        navMenu.classList.toggle("active");
+    }
+</script>
+	
+	
+	<div class="recordings">
+		
+		
+		<h1>Recordings</h1>
+
+    <h2>Come live with me</h2>
+    <h3>William Sterndale Bennett</h3>
+    <audio controls>
+        <source src="Images/Come live with me.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>
+A fine example of the Victorian partsong taking, as its theme, a pastoral love song reminiscent of an earlier age</p>
+
+    <hr>
+    <h2>Exsultate justi</h2>
+    <h3>Lodovico Viadana</h3>
+    <audio controls>
+        <source src="Images/Exultate justi.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>
+A lively setting of Psalm 33 by the early 17th-century composer, later monk, Viadana. Close in style to the music of Monteverdi.
+</p>
+
+    <hr>
+    <h2>Le baylère</h2>
+    <h3>Author: Alice Johnson</h3>
+   	<audio controls>
+        <source src="Images/La baylère.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>A folksong from the Auvergne, in an arrangement made popular by The King’s Singers</p>
+		
+		
+	<hr>
+		
+
+		
+
+	</div>
+	
+	
+	
+	
+</body>
+</html>

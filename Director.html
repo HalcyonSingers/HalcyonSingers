@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Halcyon Singers</title>
+</head>
+<body>
+	 <header>
+    <img src="Images/logo.png" class="logo">
+    <div class="title">
+        <h1>Halcyon Singers</h1>
+    </div>
+
+    <!-- Hamburger Icon-->
+    <div class="hamburger" onclick="toggleMenu()">
+        &#9776; <!-- Hamburger text icon -->
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Recordings.html">Recordings</a></li>
+            <li><a href="Director.html">Music Director</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- JS for menu toggle -->
+<script>
+    function toggleMenu() {
+        var navMenu = document.getElementById("nav-menu");
+        navMenu.classList.toggle("active");
+    }
+</script>
+	
+	
+	<div class="director">
+        <h1>Music Director</h1>
+        <div class="director-content">
+		
+		<p>Andrew Hanley studied music at Bristol University, specialising in 17th-century English music and organ performance. As an academic his work has been included in several publications, including Dictionary of National Biography and New Grove Dictionary of Music and Musicians. For his MA (Mus) he specialised in the music of a rather obscure 17th-century English composer, Richard Mico.
+        z<br><br>
+        Andrew has been a church organist since the age of 14, and has been director of music in churches and of choirs for many years, in London, Tunbridge Wells, Southampton and Salisbury. By profession, he is a music publisher, currently at Edition Peters and previously at Boosey & Hawkes.
+        <br><br>
+        Andrew lives in Salisbury, with his wife Sara Cunningham (a soprano and singing teacher who has a private teaching practice and is former head of vocal studies at the London College of Music Junior College) and children Elizabeth (a pianist and oboist) and Edward (a drummer).  
+        </p>
+        <img src="Images/andrew.jpg" alt="Director Photo">
+	</div>
+    </div>
+</body>
+</html>
